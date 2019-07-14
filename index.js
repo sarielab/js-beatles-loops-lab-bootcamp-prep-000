@@ -4,10 +4,12 @@ var theBeatlesPlay = (musicians, instruments) => {
   const arr = []
   
   for (let i = 0; i < arrLen; i++) {
-    arr.push(`${musicians[i]} plays $`)
+    arr.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   return arr
 }
+
+
 /*
 describe('Beatles Loops', function() {
   it("returns an array of strings containing what instruments each musician plays", function() {
