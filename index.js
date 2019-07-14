@@ -22,7 +22,7 @@ var iLoveTheBeatles = (count) => {
   const newArr = []
   
   for (let i = 0; i <= count; i++) {
-    newArr.push(`I love the Beatles!`)
+    newArr.push('I love the Beatles!')
   }
   
   return newArr
