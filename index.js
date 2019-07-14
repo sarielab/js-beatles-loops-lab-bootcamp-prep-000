@@ -9,7 +9,14 @@ var theBeatlesPlay = (musicians, instruments) => {
   return arr
 }
 
-
+var johnLennonFacts = (facts) => {
+  const factsLen = facts.length
+  const newFact = []
+  
+  for (let i = 0; i < factsLen; i++) {
+    newFact.push(`${facts[i]}!!!`)
+  }
+}
 /*
 describe('Beatles Loops', function() {
   it("returns an array of strings containing what instruments each musician plays", function() {
