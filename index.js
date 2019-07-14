@@ -23,7 +23,7 @@ var johnLennonFacts = (facts) => {
 var iLoveTheBeatles = (count) => {
   const newArr = []
   
-  for (let i = 1; i <= count; i++) {
+  for (let i = 0; i <= count; i++) {
     newArr.push('I love the Beatles! '.repeat(i).split('! '))
   }
   
