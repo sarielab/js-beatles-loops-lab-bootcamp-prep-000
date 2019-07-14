@@ -16,6 +16,8 @@ var johnLennonFacts = (facts) => {
   for (let i = 0; i < factsLen; i++) {
     newFact.push(`${facts[i]}!!!`)
   }
+  
+  return newFact
 }
 
 var iLoveTheBeatles = (count) => {
